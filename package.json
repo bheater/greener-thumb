@@ -1,0 +1,38 @@
+{
+  "name": "greener-thumb",
+  "version": "1.0.0",
+  "description": "A gardening web application built in React. The purpose of the site is to compile resources and provide plant information and care instructions  pulled from avaiable RESTful APIs.",
+  "main": "index.js",
+  "keywords": [
+    "gardening"
+  ],
+  "author": "Blair Morris",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "4.8.3",
+    "@material-ui/icons": "4.5.1",
+    "bootstrap": "^4.4.1",
+    "core-js": "^3.6.4",
+    "jquery": "^3.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "reactstrap": "^8.4.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
