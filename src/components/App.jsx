@@ -1,24 +1,17 @@
-import React, { useState } from "react";
-import Header from "./Header";
+import React from "react";
 import Footer from "./Footer";
-import Note from "./Note";
-import CreateArea from "./CreateArea";
 import ExampleNavbar from "./Navbar";
-import ExampleJumbotron from "./FluidJumbotron";
-import InspirationBoard from "./InspirationBoard";
-import Router from "react-router";
+import Table from "./Table";
 
-
-function App() {
-
-  return (
-    <div>
-      <ExampleNavbar />
-      <ExampleJumbotron />
-      <InspirationBoard />
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <ExampleNavbar />
+        <Table />
+        <Footer />
+      </div>
+    )
+  }
 }
-
-export default App;
+export default App

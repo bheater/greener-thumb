@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import FilterVintageIcon from '@material-ui/icons/FilterVintage';
-import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+// import { BrowserRouter, Route, Link } from "react-router-dom";
+
 
 import {
   Collapse,
@@ -29,8 +30,14 @@ const ExampleNavbar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
+          <NavItem>
+            <NavLink href="/About">About</NavLink>
+          </NavItem>
             <NavItem>
-              <NavLink href="/components/InspirationBoard">Inspiration</NavLink>
+              <NavLink href="/Inspiration">Inspiration</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/Blog">Blog</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://protected-citadel-06350.herokuapp.com/">Newsletter</NavLink>
@@ -46,6 +53,10 @@ const ExampleNavbar = (props) => {
                 <DropdownItem>
                   Blog Posts
                 </DropdownItem>
+                <DropdownItem>
+                  Blog Posts
+                </DropdownItem>
+
                 <DropdownItem divider />
                 <DropdownItem>
                   Reset

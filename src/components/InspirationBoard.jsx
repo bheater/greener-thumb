@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
-import ExampleNavbar from "./Navbar";import { Container, Row, Col } from 'reactstrap';
+import InspirationJumbotron from "./InspirationJumbotron"
+import { Container, Row, Col } from 'reactstrap';
 
 function InspirationBoard(){
   const [notes, setNotes] = useState([]);
@@ -23,15 +23,13 @@ function InspirationBoard(){
 
   return(
     <div>
-    <p> Welcome to your </p>
-    <h2> inspiration board. </h2>
-    <p> Feel free to jot down any garden ideas and inspiration below. </p>
+    <InspirationJumbotron />
     <CreateArea onAdd={addNote} />
     <Container>
       <Row>
         {notes.map((noteItem, index) => {
           return (
-            <Col xs="6" sm="4">
+            <Col sm={{ size: 'auto', offset: 1 }}>
               <Note
                 key={index}
                 id={index}

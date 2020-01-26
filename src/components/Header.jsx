@@ -1,6 +1,6 @@
 import React from "react";
-import FilterVintageIcon from '@material-ui/icons/FilterVintage';
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+
 function Header() {
   return (
     <header>
