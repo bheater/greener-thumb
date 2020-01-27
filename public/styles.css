@@ -10,8 +10,9 @@ html {
 body {
   background: #eee;
   color: #004445;
-  background-color: #2C786C;
-  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-image: url("https://www.transparenttextures.com/patterns/ecailles.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   padding: 0 16px;
 }
@@ -40,6 +41,14 @@ footer {
 
 footer p {
   color: #ccc;
+}
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+.card{
+  margin: 15px 0;
 }
 .note {
   background: #fff;

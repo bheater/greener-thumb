@@ -4,6 +4,8 @@ import CreateArea from "./CreateArea";
 import InspirationJumbotron from "./InspirationJumbotron"
 import { Container, Row, Col } from 'reactstrap';
 
+
+
 function InspirationBoard(){
   const [notes, setNotes] = useState([]);
 

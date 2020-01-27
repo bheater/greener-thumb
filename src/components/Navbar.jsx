@@ -33,12 +33,22 @@ const ExampleNavbar = (props) => {
           <NavItem>
             <NavLink href="/About">About</NavLink>
           </NavItem>
-            <NavItem>
-              <NavLink href="/Inspiration">Inspiration</NavLink>
-            </NavItem>
+          <NavItem>
+            <NavLink href="/Articles">Articles</NavLink>
+          </NavItem>
+
             <NavItem>
               <NavLink href="/Blog">Blog</NavLink>
             </NavItem>
+
+            <NavItem>
+              <NavLink href="/get-started">Get Started</NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink href="/Inspiration">Inspiration</NavLink>
+            </NavItem>
+
             <NavItem>
               <NavLink href="https://protected-citadel-06350.herokuapp.com/">Newsletter</NavLink>
             </NavItem>
