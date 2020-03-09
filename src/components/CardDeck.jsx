@@ -1,7 +1,6 @@
 import React from 'react';
 import {
-  Card, Button, CardImg, CardTitle, CardText, CardDeck,
-  CardSubtitle, CardBody, CardFooter
+  Card, Button, CardImg, CardTitle, CardText, CardDeck, CardBody, CardFooter
 } from 'reactstrap';
 
 const ExampleCardDeck = (props) => {

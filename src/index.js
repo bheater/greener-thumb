@@ -5,8 +5,7 @@ import App from "./components/App";
 import Inspiration from "./components/Inspiration";
 import About from "./components/About";
 import Articles from "./components/Articles";
-import Blog from "./components/Blog";
-import GetStarted from "./components/GetStarted";
+// import GetStarted from "./components/GetStarted";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const routing = (
@@ -16,10 +15,6 @@ const routing = (
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
         <Route path="/articles" component={Articles} />
-
-        <Route path="/blog" component={Blog} />
-        <Route path="/get-started" component={GetStarted} />
-
         <Route path="/inspiration" component={Inspiration} />
       </Switch>
     </div>

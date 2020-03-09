@@ -11,10 +11,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   NavbarText
 } from 'reactstrap';
 
@@ -30,49 +26,23 @@ const ExampleNavbar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-          <NavItem>
-            <NavLink href="/About">About</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/Articles">Articles</NavLink>
-          </NavItem>
 
             <NavItem>
-              <NavLink href="/Blog">Blog</NavLink>
+              <NavLink href="/About">about</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="/get-started">Get Started</NavLink>
+              <NavLink href="/Inspiration">inspiration</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="/Inspiration">Inspiration</NavLink>
+              <NavLink href="/Articles">articles</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="https://protected-citadel-06350.herokuapp.com/">Newsletter</NavLink>
+              <NavLink href="https://protected-citadel-06350.herokuapp.com/">newsletter</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Search Plants
-                </DropdownItem>
-                <DropdownItem>
-                  Blog Posts
-                </DropdownItem>
-                <DropdownItem>
-                  Blog Posts
-                </DropdownItem>
-
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            
           </Nav>
           <NavbarText>
             <FilterVintageIcon />

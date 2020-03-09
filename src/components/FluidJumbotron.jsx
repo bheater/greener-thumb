@@ -8,7 +8,8 @@ const ExampleJumbotron = (props) => {
         <Container fluid>
           <p className="lead"> Become a </p>
           <h1 className="display-3"><i>better</i> gardener.</h1>
-          <p className="lead">The <strong>greener thumb</strong> helps you find plants that will thrive in every climate and condition.</p>
+          <p className="lead">find plants that will thrive in your climate</p>
+          <p className="lead">design and cultivate your garden retreat</p>
         </Container>
       </Jumbotron>
     </div>
