@@ -75,8 +75,4 @@ function CreateArea(props) {
 }
 
 export default CreateArea;
-// {
-// <Row>
-//  <Col xs="auto">.col-auto - variable width content</Col>
-// </Row>
-// }
+
