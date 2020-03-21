@@ -17,7 +17,7 @@ const ExampleCardColumns = (props) => {
         <Card className="card">
           <CardImg className="card-img-top" top width="100%" src="https://images.unsplash.com/photo-1474444417714-f5d07c4d6a38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Potting</CardTitle>
+            <CardTitle><strong>Potting</strong></CardTitle>
             <CardText>Design a beautiful garden with containers and choose the
               right pot for both your plant and style.
             </CardText>

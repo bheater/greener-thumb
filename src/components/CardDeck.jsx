@@ -9,7 +9,7 @@ const ExampleCardDeck = (props) => {
       <Card>
         <CardImg top width="100%" src="https://images.unsplash.com/photo-1474444417714-f5d07c4d6a38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Potting</CardTitle>
+          <CardTitle><strong>Potting</strong></CardTitle>
           <CardText>Design a beautiful garden using containers and choose the
             right container for both your plants and your style.
           </CardText>

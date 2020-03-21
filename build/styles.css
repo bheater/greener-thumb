@@ -41,16 +41,19 @@ footer {
 
 footer p {
   color: #ccc;
+
 }
+
 .carousel .img-responsive {
   width:100%;
   height:400px;
 }
+
 .style-img{
   width:100%;
 }
 .img-tag{
-  background-color:black;
+  background-color: grey;
   color:white;
   text-decoration:none;
   padding:4px 6px;
@@ -85,6 +88,17 @@ footer p {
 
 .card{
   margin: 15px 0;
+  outline-style: dotted;
+  outline-color: #ccc;
+  align-items: center;
+  align-content: center;
+}
+.card-title{
+  font-size: larger;
+  align-content: center;
+}
+.card-footer{
+  font-size:small;
 }
 .note {
   background: #fff;

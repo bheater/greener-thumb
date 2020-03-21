@@ -22,12 +22,14 @@ class Inspiration extends React.Component{
 };
 export default Inspiration;
 
-
+const inspirationStyle = {
+  backgroundColor: '#ccc',
+}
 
 const InspirationJumbotron = (props) => {
   return (
     <div>
-      <Jumbotron fluid>
+      <Jumbotron fluid style={inspirationStyle}>
         <Container fluid>
           <p className="lead"> Welcome to your</p>
           <h1 className="display-3"><strong>inspiration</strong> board.</h1>
@@ -60,14 +62,21 @@ function InspirationBoard(){
   return(
     <div>
     <InspirationJumbotron />
-    <Carousel />
     <h1 className="lead">How does nature inspire and captivate you?</h1>
-    <CreateArea onAdd={addNote} />
-    <Container>
-      <Row>
+    <Container fluid>
+      <Row >
+        <Col xs="12" sm="12" md="6" lg="6" xl ="6">
+        <Carousel />
+
+        </Col>
+        <Col xs="12" sm="12" md="6" lg="6" xl ="6">
+
+         <CreateArea onAdd={addNote} />
+        </Col>
+
         {notes.map((noteItem, index) => {
           return (
-            <Col sm={{ size: 'auto', offset: 1 }}>
+            <Col xm="12" sm="2" md={{ size: 'auto', offset: 1 }}>
               <Note
                 key={index}
                 id={index}

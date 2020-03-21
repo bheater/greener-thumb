@@ -4,21 +4,24 @@ import {  Container, Row, Col, Card, Jumbotron, Button, CardImg, CardTitle, Card
 } from 'reactstrap';
 import Footer from "./Footer";
 
+const backgroundImgStyle = {
+  backgroundColor: '#ccc',
+}
 
 class Articles extends React.Component{
   render(){
     return (
-      <div>
+      <div >
         <ExampleNavbar />
-        <Jumbotron fluid>
+        <Jumbotron fluid style={backgroundImgStyle}>
           <Container fluid>
           <p className="lead">Design your </p>
-            <h1 className="display-3"><i>dream</i> garden.</h1>
+            <h1 className="display-3" ><i>dream</i> garden.</h1>
             <p className="lead" >Cultivate your oasis by learning the basics of plant care.</p>
  
           </Container>
         </Jumbotron>
-        <h1>articles</h1>
+        <h1>Articles</h1>
 
         <ArticleCardColumns />
         <Footer />

@@ -20,27 +20,36 @@ const ExampleNavbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div >
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">greener thumb</NavbarBrand>
+        <NavbarBrand href="/">Greener Thumb</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
 
             <NavItem>
-              <NavLink href="/About">about</NavLink>
+              <NavLink href="/About">About</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="/Inspiration">inspiration</NavLink>
+              <NavLink href="/get-started">Get Started</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="/Articles">articles</NavLink>
+              <NavLink href="/Inspiration">Inspiration</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="https://protected-citadel-06350.herokuapp.com/">newsletter</NavLink>
+              <NavLink href="/Design">Design</NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink href="/Articles">Articles</NavLink>
+            </NavItem>
+
+
+            <NavItem>
+              <NavLink href="https://protected-citadel-06350.herokuapp.com/">Newsletter</NavLink>
             </NavItem>
             
           </Nav>
